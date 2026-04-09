@@ -22,12 +22,12 @@ export const Button = ({
 
   const variantClasses = {
     primary:
-      "bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 hover:shadow-brand",
-    secondary: "",
+      "bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-brand",
     outline:
-      "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
+      " bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30  dark:hover:bg-input/50",
     ghost:
       "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
+    secondary: "",
   };
 
   const variantSize = {
