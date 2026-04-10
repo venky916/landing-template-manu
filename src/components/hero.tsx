@@ -8,7 +8,7 @@ import { LandingImages } from "./landing-images";
 
 export const Hero = () => {
   return (
-    <div className="pt-10 md:pt-20 lg:pt-32 relative overflow-hidden">
+    <section className="relative overflow-hidden py-10 md:py-20 lg:py-32">
       <Container>
         <Heading as="h1">
           Agents that do the work
@@ -26,8 +26,8 @@ export const Hero = () => {
         </div>
         <LandingImages />
 
-        {/* <div class="bg-background absolute inset-x-0 bottom-0 z-50 h-40 w-full mask-t-from-10% md:h-100"></div> */}
+        <div className="bg-background absolute inset-x-0 bottom-0 z-50 h-40 w-full mask-t-from-10% md:h-100"></div>
       </Container>
-    </div>
+    </section>
   );
 };
