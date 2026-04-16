@@ -26,7 +26,7 @@ export const Hero = () => {
         </div>
         <LandingImages />
 
-        <div className="bg-background absolute inset-x-0 bottom-0 z-50 h-40 w-full mask-t-from-10% md:h-100"></div>
+        <div className="bg-background absolute inset-x-0 bottom-0  h-40 w-full mask-t-from-10% md:h-100"></div>
       </Container>
     </section>
   );

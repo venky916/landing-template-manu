@@ -32,7 +32,7 @@ export const LogoCloud = () => {
     },
   ];
   return (
-    <section className="">
+    <section className="pb-10">
       <Container>
         <h2 className="mx-auto max-w-xl text-center text-lg font-medium text-neutral-600 dark:text-neutral-300">
           Trusted by modern operators across industries.
