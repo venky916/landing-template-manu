@@ -13,7 +13,7 @@ export const Features = () => {
     <div>
       <Container className="pt-10 md:pt-20 lg:pt-32">
         <div className="flex flex-col lg:flex-row lg:items-baseline-last lg:justify-between">
-          <Heading className="lg:max-w-xl font-bold text-center lg:text-left mx-auto lg:mx-0">
+          <Heading className="lg:max-w-xl  text-center lg:text-left mx-auto lg:mx-0">
             Built for Fast Moving Teams That Need Control.
           </Heading>
           <SubHeading className="text-neutral-500 text-center lg:text-left mx-auto lg:mx-0">

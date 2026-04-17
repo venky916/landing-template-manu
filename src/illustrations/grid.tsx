@@ -420,49 +420,49 @@ export const BottomArrowIllustration = (
         d="M174.147 118.72C175.468 121.803 177.479 124.447 179.665 126.231C181.848 128.012 184.222 128.948 186.265 128.577C186.322 128.566 186.379 128.55 186.436 128.538L169.421 138.362C169.036 138.575 168.609 138.729 168.14 138.814C166.183 139.17 163.87 138.276 161.709 136.512C159.551 134.751 157.559 132.134 156.251 129.081L154.286 124.498L172.192 114.161L174.147 118.72Z"
         fill="url(#paint0_linear_6_2517)"
         stroke="url(#paint1_linear_6_2517)"
-        stroke-width="0.208864"
+        strokeWidth="0.208864"
       ></path>
       <path
         d="M140.314 79.7827C139.481 80.6997 138.973 82.0056 138.813 83.5522C138.593 85.6888 139.03 88.2967 140.192 91.0093C141.513 94.092 143.525 96.7371 145.711 98.521C147.894 100.302 150.268 101.237 152.311 100.866L154.296 100.505L136.743 110.639L134.186 111.104C132.229 111.46 129.916 110.566 127.755 108.802C125.597 107.041 123.605 104.424 122.297 101.371C121.145 98.6828 120.716 96.1109 120.933 94.0171C121.149 91.9223 122.009 90.319 123.418 89.5376L123.42 89.5366L140.314 79.7827Z"
         fill="url(#paint2_linear_6_2517)"
         stroke="url(#paint3_linear_6_2517)"
-        stroke-width="0.208864"
+        strokeWidth="0.208864"
       ></path>
       <path
         d="M154.632 100.554C151.343 107.547 146.655 112.729 140.941 116.033L125.927 124.701C130.414 121.364 134.133 116.721 136.862 110.812L154.632 100.554Z"
         fill="url(#paint4_linear_6_2517)"
         stroke="url(#paint5_linear_6_2517)"
-        stroke-width="0.208864"
+        strokeWidth="0.208864"
       ></path>
       <path
         d="M20.6113 23.0103C19.9515 23.7448 19.4908 24.7294 19.2539 25.897C18.8845 27.7178 19.0537 29.9896 19.8486 32.4722C30.3457 65.2557 51.403 98.213 78.2305 120.105C104.591 141.616 130.64 147.647 149.445 139.397L133.717 148.477C114.872 158.355 87.7751 152.828 60.2744 130.386C33.4816 108.523 12.4461 75.6006 1.95996 42.8511C1.17316 40.3937 1.0106 38.1598 1.37109 36.3823C1.73159 34.6052 2.61204 33.2923 3.90625 32.6548H3.90723L3.91309 32.6509L20.6113 23.0103Z"
         fill="url(#paint6_linear_6_2517)"
         stroke="url(#paint7_linear_6_2517)"
-        stroke-width="0.208864"
+        strokeWidth="0.208864"
       ></path>
       <path
         d="M24.2568 21.7852C26.4 21.9 28.7511 23.2382 30.8184 25.3291C32.8834 27.4179 34.6532 30.2467 35.6367 33.3184C43.9436 59.2618 60.5692 85.2513 81.7412 102.528C102.487 119.457 122.995 124.249 137.84 117.826L122.855 126.478C107.955 135.094 86.0412 130.971 63.7852 112.81C42.6479 95.5609 26.044 69.6066 17.748 43.6973C16.7543 40.5938 14.9665 37.7366 12.8789 35.625C10.7934 33.5156 8.39574 32.1383 6.17969 32.0195C5.7036 31.9941 5.25514 32.0296 4.83594 32.1182L22.002 22.207C22.6487 21.8899 23.4037 21.7395 24.2568 21.7852Z"
         fill="url(#paint8_linear_6_2517)"
         stroke="url(#paint9_linear_6_2517)"
-        stroke-width="0.208864"
+        strokeWidth="0.208864"
       ></path>
       <path
         d="M172.027 114.252C167.608 125.449 160.603 133.423 151.808 138.035L151.804 138.037L138.812 145.537C145.385 140.705 150.667 133.675 154.232 124.526L172.027 114.252Z"
         fill="url(#paint10_linear_6_2517)"
         stroke="url(#paint11_linear_6_2517)"
-        stroke-width="0.208864"
+        strokeWidth="0.208864"
       ></path>
       <path
         d="M163.273 74.9189C165.23 74.5634 167.544 75.457 169.705 77.2207C171.863 78.9819 173.854 81.5984 175.163 84.6523L188.63 116.081C189.782 118.769 190.21 121.34 189.993 123.434C189.777 125.529 188.917 127.132 187.508 127.913L187.507 127.914L170.61 137.668C171.444 136.751 171.953 135.446 172.113 133.898C172.334 131.762 171.896 129.154 170.733 126.441L157.267 95.0137C155.945 91.9308 153.935 89.2858 151.749 87.502C149.566 85.7207 147.192 84.7851 145.148 85.1562L124.664 88.8799C124.605 88.8906 124.548 88.9053 124.49 88.918L141.508 79.0938C141.893 78.8803 142.321 78.7269 142.79 78.6416L163.273 74.9189Z"
         fill="url(#paint12_linear_6_2517)"
         stroke="url(#paint13_linear_6_2517)"
-        stroke-width="0.208864"
+        strokeWidth="0.208864"
       ></path>
       <path
         d="M145.117 85.1484C149.158 84.4138 154.588 88.8446 157.245 95.0454L170.712 126.474C173.369 132.675 172.247 138.297 168.206 139.032C164.164 139.766 158.734 135.335 156.077 129.135L154.173 124.695C140.288 160.098 100.64 163.569 60.1902 130.561C33.3505 108.659 12.2805 75.6821 1.77748 42.8799C-0.220302 36.6404 1.73092 31.7733 6.13552 32.0093C10.5402 32.2454 15.7307 37.4954 17.7288 43.7349C26.0187 69.6254 42.6105 95.5611 63.7355 112.8C94.5212 137.922 124.717 136.213 136.58 110.903L134.254 111.326C130.213 112.061 124.782 107.63 122.125 101.429C119.468 95.2284 120.591 89.6053 124.632 88.8706L145.117 85.1484Z"
         fill="url(#paint14_linear_6_2517)"
         stroke="url(#paint15_linear_6_2517)"
-        stroke-width="0.208864"
+        strokeWidth="0.208864"
       ></path>
       <defs>
         <linearGradient
@@ -473,8 +473,8 @@ export const BottomArrowIllustration = (
           y2="138.995"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint1_linear_6_2517"
@@ -485,7 +485,7 @@ export const BottomArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint2_linear_6_2517"
@@ -495,8 +495,8 @@ export const BottomArrowIllustration = (
           y2="111.285"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint3_linear_6_2517"
@@ -507,7 +507,7 @@ export const BottomArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint4_linear_6_2517"
@@ -517,8 +517,8 @@ export const BottomArrowIllustration = (
           y2="126.567"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint5_linear_6_2517"
@@ -529,7 +529,7 @@ export const BottomArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint6_linear_6_2517"
@@ -539,8 +539,8 @@ export const BottomArrowIllustration = (
           y2="153.284"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint7_linear_6_2517"
@@ -551,7 +551,7 @@ export const BottomArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint8_linear_6_2517"
@@ -561,8 +561,8 @@ export const BottomArrowIllustration = (
           y2="130.904"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint9_linear_6_2517"
@@ -573,7 +573,7 @@ export const BottomArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint10_linear_6_2517"
@@ -583,8 +583,8 @@ export const BottomArrowIllustration = (
           y2="148.57"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint11_linear_6_2517"
@@ -595,7 +595,7 @@ export const BottomArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint12_linear_6_2517"
@@ -605,8 +605,8 @@ export const BottomArrowIllustration = (
           y2="138.448"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E6E6E6"></stop>
-          <stop offset="1" stop-color="#FAFAFA"></stop>
+          <stop stopColor="#E6E6E6"></stop>
+          <stop offset="1" stopColor="#FAFAFA"></stop>
         </linearGradient>
         <linearGradient
           id="paint13_linear_6_2517"
@@ -617,7 +617,7 @@ export const BottomArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
         <linearGradient
           id="paint14_linear_6_2517"
@@ -627,8 +627,8 @@ export const BottomArrowIllustration = (
           y2="123.205"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CCCCCC"></stop>
-          <stop offset="1" stop-color="#F7F7F7"></stop>
+          <stop stopColor="#CCCCCC"></stop>
+          <stop offset="1" stopColor="#F7F7F7"></stop>
         </linearGradient>
         <linearGradient
           id="paint15_linear_6_2517"
@@ -639,7 +639,7 @@ export const BottomArrowIllustration = (
           gradientUnits="userSpaceOnUse"
         >
           <stop></stop>
-          <stop offset="1" stop-opacity="0.5"></stop>
+          <stop offset="1" stopOpacity="0.5"></stop>
         </linearGradient>
       </defs>
     </svg>
