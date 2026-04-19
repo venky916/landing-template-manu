@@ -9,9 +9,7 @@ import React from "react";
 
 export const SkeletonOne = () => {
   return (
-    <div
-      className="h-full w-full translate-x-5 -translate-y-10 mask-r-from-50% mask-radial-from-50% perspective-distant rotate-z-5 -rotate-y-20 rotate-x-20 scale-[1.2]"
-    >
+    <div className="h-full w-full translate-x-5 -translate-y-10 scale-[1.2] rotate-x-20 -rotate-y-20 rotate-z-5 mask-r-from-50% mask-radial-from-50% perspective-distant">
       <SkeletonCard
         className="absolute bottom-0 left-12 z-30 max-w-[90%]"
         icon={<IconCircleDashedCheck className="size-4" />}
@@ -59,12 +57,12 @@ const SkeletonCard = ({
     >
       <div className="flex items-center gap-3">
         {icon}
-        <p className="text-xs font-normal text-black dark:text-white">
+        <p className="text-xs font-normal text-black md:text-sm dark:text-white">
           {title}
         </p>
         {badge}
       </div>
-      <p className="mt-3 text-xs font-display font-light text-neutral-500 dark:text-neutral-400">
+      <p className="font-display mt-3 text-[10px] font-light text-neutral-500 md:text-sm dark:text-neutral-400">
         {description}
       </p>
       <div className="mt-4 flex flex-wrap items-center gap-2">
@@ -78,7 +76,7 @@ const SkeletonCard = ({
 
 const Tag = ({ text }: { text: string }) => {
   return (
-    <div className="rounded-sm bg-neutral-200 px-2 py-1 text-sm font-medium tracking-tight dark:bg-neutral-700">
+    <div className="rounded-sm bg-neutral-200 px-2 py-1 text-[10px] font-medium tracking-tight md:text-sm dark:bg-neutral-700">
       {text}
     </div>
   );

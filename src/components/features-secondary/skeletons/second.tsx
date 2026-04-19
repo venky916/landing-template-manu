@@ -17,22 +17,28 @@ export const SkeletonTwo = () => {
         <RevolvingCard>
           <SlackIcon className="size-8" />
         </RevolvingCard>
-
-        <RevolvingCard className="[--orbit-duration:20s] [--translate-position:160px]">
+        <RevolvingCard className="[--initial-position:80deg] [--orbit-duration:20s] [--translate-position:160px]">
           <MetaIcon className="size-10" />
         </RevolvingCard>
-        <RevolvingCard className="[--orbit-duration:15s] [--translate-position:180px]">
+        <RevolvingCard className="[--initial-position:120deg] [--orbit-duration:15s] [--translate-position:180px]">
           <IconBrandInstagram className="size-10 text-red-500" />
         </RevolvingCard>
-        <RevolvingCard className="[--orbit-duration:25s] [--translate-position:220px]">
+        <RevolvingCard className="[--initial-position:160deg] [--orbit-duration:25s] [--translate-position:220px]">
           <ExcelSheetIcon className="size-10" />
         </RevolvingCard>
-        <RevolvingCard className="size-auto w-40 bg-transparent shadow-none ring-0 [--orbit-duration:20s] [--translate-position:160px]">
+        <RevolvingCard className="size-auto w-60 bg-transparent shadow-none ring-0 [--initial-position:200deg] [--orbit-duration:30s] [--translate-position:160px]">
           <SkeletonCard
             className="absolute bottom-0 left-12 z-30 max-w-[90%]"
             icon={<IconCircleDashedCheck className="size-4" />}
             title="Campaign Planner"
-            description="Creates clear, ready-to-use campaign briefs using product info, audience data, and past results."
+            description="Creates clear, ready-to-use campaign briefs using product info."
+          />
+        </RevolvingCard>
+        <RevolvingCard className="size-auto w-60 bg-transparent shadow-none ring-0 [--initial-position:60deg] [--orbit-duration:20s] [--translate-position:220px]">
+          <SkeletonCard
+            className="absolute bottom-0 left-12 z-30 max-w-[90%]"
+            icon={<IconCircleDashedCheck className="size-4" />}
+            title="Ready made solutions"
           />
         </RevolvingCard>
       </Circle>
@@ -109,9 +115,11 @@ const SkeletonCard = ({
         </p>
         {badge}
       </div>
-      <p className="font-display mt-3 text-xs font-light text-neutral-500 dark:text-neutral-400">
-        {description}
-      </p>
+      {description && (
+        <p className="font-display mt-3 text-xs font-light text-neutral-500 dark:text-neutral-400">
+          {description}
+        </p>
+      )}
     </div>
   );
 };

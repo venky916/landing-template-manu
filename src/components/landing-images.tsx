@@ -16,10 +16,13 @@ export const LandingImages = ({
       <div className="relative min-h-72 w-full translate-x-5 translate-y-10 perspective-distant sm:min-h-80 md:min-h-100 md:translate-x-10 lg:min-h-140 lg:translate-x-24 lg:translate-y-20">
         <motion.div
           initial={{ opacity: 0, y: -100 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
             ease: "easeOut",
+          }}
+          viewport={{
+            once: true,
           }}
           className="relative shadow-2xl perspective-[4000px]"
         >
@@ -38,7 +41,10 @@ export const LandingImages = ({
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: -100 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{
+            once: true,
+          }}
           transition={{
             duration: 0.5,
             ease: "easeOut",

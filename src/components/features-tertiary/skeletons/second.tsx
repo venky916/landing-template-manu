@@ -57,7 +57,7 @@ const Item = ({
     >
       <motion.div
         initial={{ opacity: 0, filter: "blur(10px)" }}
-        animate={{ opacity: 1, filter: "blur(0px)" }}
+        whileInView={{ opacity: 1, filter: "blur(0px)" }}
         transition={{
           duration: Math.random() * 0.8 + 0.2,
           delay: Math.random() * 0.8 + 0.2,

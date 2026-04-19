@@ -88,7 +88,7 @@ const PricingCard = ({
       <div>
         <Heading >
           ${price}
-          <span className="text-sm text-neutral-500 md:text-2xl lg:text-3xl">
+          <span className="text-lg text-neutral-500 md:text-2xl lg:text-3xl">
             /mo
           </span>
         </Heading>
@@ -110,7 +110,7 @@ const Step = ({ title }: { title: string }) => {
   return (
     <li>
       <IconCircleCheckFilled className="siz-4 text-neutral-500" />
-      <p>{title}</p>
+      <p className="text-sm md:text-base">{title}</p>
     </li>
   );
 };

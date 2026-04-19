@@ -36,7 +36,7 @@ export const LogoCloud = () => {
       <Container>
         <h2 className="mx-auto max-w-xl text-center text-lg font-medium text-neutral-600 dark:text-neutral-300">
           Trusted by modern operators across industries.
-          <br />
+          <br className="hidden md:block"/>
           <span className="text-neutral-400">
             {" "}
             From pilot to scale without chaos.

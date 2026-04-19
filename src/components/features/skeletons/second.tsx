@@ -100,7 +100,7 @@ const Row = ({
         >
           {icon}
         </div>
-        <p className="text-sm font-medium text-neutral-500">{text}</p>
+        <p className="text-xs md:text-sm font-medium text-neutral-500">{text}</p>
       </div>
       <div className="flex items-center gap-1 text-neutral-400">
         <IconRipple className="size-4" />

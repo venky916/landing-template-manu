@@ -13,7 +13,7 @@ export const FeaturesTertiary = () => {
     <section className="relative overflow-hidden py-10 md:py-20 lg:py-40">
       <Container>
         <div className="grid grid-cols-1 divide-neutral-200 border-y border-neutral-200 md:grid-cols-2 dark:divide-neutral-800 dark:border-neutral-800">
-          <div className="border-r border-b border-neutral-200 dark:border-neutral-800">
+          <div className="md:border-r border-b border-neutral-200 dark:border-neutral-800">
             <div className="p-8">
               <h2 className="text-lg font-bold text-neutral-800">
                 Audit Trail
@@ -38,7 +38,7 @@ export const FeaturesTertiary = () => {
               <SkeletonTwo />
             </CardSkeleton>
           </div>
-          <div className="border-r border-neutral-200 p-8 dark:border-neutral-800">
+          <div className="md:border-r border-neutral-200 p-8 dark:border-neutral-800">
             <h2 className="text-lg font-bold text-neutral-800">
               Approval Queue
             </h2>

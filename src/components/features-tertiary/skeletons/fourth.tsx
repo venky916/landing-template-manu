@@ -1,9 +1,5 @@
 "use client";
-import {
-  ExcelSheetIcon,
-  HubSpotIcon,
-  SalesforceIcon,
-} from "@/icons";
+import { ExcelSheetIcon, HubSpotIcon, SalesforceIcon } from "@/icons";
 import { cn } from "@/lib/utils";
 import {
   IconClipboardDataFilled,
@@ -13,7 +9,7 @@ import {
   IconPointerUp,
 } from "@tabler/icons-react";
 import { motion } from "motion/react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export const SkeletonFour = () => {
   const tags = [
@@ -73,7 +69,35 @@ export const SkeletonFour = () => {
       tags,
     },
   ];
-  const [selected, setSelected] = useState(items[1]);
+  const [selected, setSelected] = useState(items[0]);
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const currentIndexRef = useRef(0);
+
+  const startAutoPlay = () => {
+    stopAutoPlay();
+    intervalRef.current = setInterval(() => {
+      currentIndexRef.current = (currentIndexRef.current + 1) % items.length;
+      setSelected(items[currentIndexRef.current]);
+      setTimeout(() => {
+        setSelected(items[currentIndexRef.current]);
+      });
+    }, 2000); // Change item every 3 seconds
+  };
+
+  const stopAutoPlay = () => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    }
+  };
+
+  useEffect(() => {
+    startAutoPlay();
+    return () => {
+      stopAutoPlay();
+    };
+  }, []);
+
   return (
     <div>
       <div className="mx-auto my-4 flex max-w-lg flex-wrap items-center justify-center gap-4">
@@ -81,12 +105,19 @@ export const SkeletonFour = () => {
           <button
             key={item.title}
             className={cn(
-              "flex cursor-pointer items-center justify-center gap-1 rounded-sm border px-2 py-1 text-xs opacity-50 transition duration-200 active:scale-98",
+              "relative flex cursor-pointer items-center justify-center gap-1 rounded-sm border px-2 py-1 text-xs opacity-50 transition duration-200 active:scale-98",
               selected.title === item.title && "opacity-100",
               item.className,
             )}
             onClick={() => setSelected(item)}
           >
+            {selected.title === item.title && (
+              <motion.div
+                layoutId="selected-item"
+                className="shadow- absolute inset-0 rounded-[5px] shadow-inner"
+              ></motion.div>
+            )}
+
             {item.icon}
             {item.title}
           </button>
